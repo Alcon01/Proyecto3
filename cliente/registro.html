@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/mainregistro.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="imagen">
+            <img src="assets/iconomusica.jpg" width="150" alt="icono" aling="right">
+        </div>
+
+        <div class="container">
+
+            <div class="contactForm">
+                <div class="contentForm">
+                    <h1>Registro</h1>
+                    <form action="registrar.php" method="post" class="form-register">
+                        <div class=" inputBox ">
+                            <!--<label for="gmail ">Correo Electronico</label>-->
+                            <input type="text" id="nit" name="nit" placeholder="N° Carnet" required>
+                        </div>
+                        <div class="inputBox">
+                            <!--<label for="name ">Nombre</label>-->
+                            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                        </div>
+                        <div class="inputBox">
+                            <!--<label for="gmail ">Correo Electronico</label>-->
+                            <input type="text" id="correo" name="correo" placeholder="E-mail" required>
+                        </div>
+                        <div class="inputBox">
+                            <!--<label for="password ">Contraseña</label>-->
+                            <input type="password" id="clave" name="clave" placeholder="Contraseña" required>
+                        </div>
+                        <div class="inputBox">
+                            <!--<label for="password ">Contraseña</label>-->
+                            <input type="text" id="tarjeta" name="tarjeta" placeholder="Tarjeta" required>
+                        </div>
+                        <button type="submit" value="Registrar">Iniciar</button>
+                        <p>¡Ya tienes una cuenta?
+                            <a class="link" href="login.html">INICIAR</a>
+                        </p>
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
